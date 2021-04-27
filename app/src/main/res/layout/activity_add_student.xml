@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AdminModules.AddStudent">
+
+    <EditText
+        android:id="@+id/StudentName"
+        android:layout_width="265dp"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        android:hint="Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <EditText
+        android:id="@+id/DefaultPassword"
+        android:layout_width="268dp"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:hint="Default Password"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/StudentName"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <TextView
+        android:id="@+id/DateofJoining"
+        android:layout_width="271dp"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:hint="date"
+        android:inputType="date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DefaultPassword"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <EditText
+        android:id="@+id/Degree"
+        android:layout_width="264dp"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Degree"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DateofJoining"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="162dp"
+        android:layout_height="68dp"
+        android:text="ADD STUDENT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.662"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Degree"
+        app:layout_constraintVertical_bias="0.219" />
+</androidx.constraintlayout.widget.ConstraintLayout>
