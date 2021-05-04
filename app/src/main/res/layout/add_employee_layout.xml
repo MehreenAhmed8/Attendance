@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.adminActivities.modules.addEmployeeActivity">
+    <EditText
+        android:id="@+id/employee_name"
+        android:layout_width="265dp"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:inputType="text"
+
+        android:hint="@string/employee_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/default_password"
+        android:layout_width="265dp"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:hint="@string/default_password"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/employee_name"
+        app:layout_constraintVertical_bias="0.073"
+        android:autofillHints=""
+        tools:ignore="TextFields" />
+
+    <TextView
+        android:id="@+id/date_of_joining"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/default_password"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <EditText
+        android:id="@+id/employee_type"
+        android:layout_width="265dp"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:hint="@string/employee_type"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date_of_joining"
+        app:layout_constraintVertical_bias="0.102"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/add_employee"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="@string/add_employee"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.662"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/employee_type"
+        app:layout_constraintVertical_bias="0.128" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
