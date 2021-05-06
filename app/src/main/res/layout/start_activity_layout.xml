@@ -6,72 +6,138 @@
     android:layout_height="match_parent"
     tools:context=".activities.signInActivity.MainActivity">
 
-    <TextView
-        android:id="@+id/attendence_management_system"
-        android:layout_width="match_parent"
-        android:layout_height="68dp"
-        android:text="@string/attendance_management_system"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <EditText
+        android:id="@+id/person_role"
+        android:layout_width="340dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:background="@drawable/rounded_corner"
+        android:drawableStart="@drawable/ic_icon"
+        android:drawableLeft="@drawable/ic_icon"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="@string/role"
+        android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintHorizontal_bias="0.586"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.112" />
+        app:layout_constraintTop_toBottomOf="@+id/person_password" />
+
+    <TextView
+        android:id="@+id/sign_in_logo"
+        android:layout_width="149dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/sign_in"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <EditText
         android:id="@+id/person_name"
-        android:layout_width="275dp"
+        android:layout_width="340dp"
         android:layout_height="64dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:background="@drawable/rounded_corner"
+        android:drawableStart="@drawable/ic_icon"
+        android:drawableLeft="@drawable/ic_icon"
+        android:drawablePadding="12dp"
         android:ems="10"
-        android:hint="@string/enter_id"
+
+        android:hint="@string/name"
         android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintHorizontal_bias="0.591"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/attendence_management_system"
-        app:layout_constraintVertical_bias="0.091"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toBottomOf="@+id/sign_in_detail" />
 
     <EditText
         android:id="@+id/person_password"
-        android:layout_width="275dp"
+        android:layout_width="340dp"
         android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+
+        android:autofillHints=""
+        android:background="@drawable/rounded_corner"
+        android:drawableStart="@drawable/ic_icon_two"
+
+        android:drawableLeft="@drawable/ic_icon_two"
+        android:drawablePadding="12dp"
+
         android:ems="10"
         android:hint="@string/password"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintHorizontal_bias="0.586"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/person_name"
-        app:layout_constraintVertical_bias="0.069"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/person_name" />
+
+    <TextView
+        android:id="@+id/sign_in_detail"
+        android:layout_width="311dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/enter"
+        android:textColor="#747A95"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_in_logo" />
 
     <Button
         android:id="@+id/person_sign_in"
-        android:layout_width="194dp"
-        android:layout_height="62dp"
+        android:layout_width="340dp"
+        android:layout_height="73dp"
+
+        android:backgroundTint="#EC1B23"
+        android:src="@drawable/button_background"
         android:text="@string/sign_in"
+
+        android:textColor="@color/white"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.755"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/person_role"
+        app:layout_constraintVertical_bias="0.118"
+        tools:targetApi="lollipop" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.255"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="142dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/todo"
+        android:rotationX="0"
+        android:rotationY="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.73" />
-
-    <EditText
-        android:id="@+id/person_role"
-        android:layout_width="275dp"
-        android:layout_height="64dp"
-        android:hint="@string/admin_faculty_student"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.257"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/person_password"
-        app:layout_constraintVertical_bias="0.103"
-        android:importantForAutofill="no"
-        tools:ignore="TextFields" />
+        app:srcCompat="@drawable/ic_logo"
+        tools:ignore="VectorDrawableCompat" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

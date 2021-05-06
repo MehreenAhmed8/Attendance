@@ -35,4 +35,7 @@
     <string name="date">date</string>
     <string name="degree">Degree</string>
     <string name="add_student">ADD STUDENT</string>
+    <string name="enter">Enter your staff credentials to access the assigned events you can manage</string>
+    <string name="todo">TODO</string>
+    <string name="role">Role</string>
 </resources>

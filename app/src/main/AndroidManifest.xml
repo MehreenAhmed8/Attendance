@@ -9,11 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AttendaceMS">
-        <activity android:name=".Practice"></activity>
+
         <activity android:name="com.synavos.AttendanceManagementSystem.activities.facultyActivities.FacultyPanel" />
         <activity android:name="com.synavos.AttendanceManagementSystem.activities.adminActivities.modules.viewTeachersActivity" />
         <activity android:name="com.synavos.AttendanceManagementSystem.activities.adminActivities.modules.addEmployeeActivity" />
-        <activity android:name="com.synavos.AttendanceManagementSystem.activities.commnon.ViewPersonalAttendance" />
         <activity android:name="com.synavos.AttendanceManagementSystem.activities.studentActivities.studentPanelActivity" />
         <activity android:name="com.synavos.AttendanceManagementSystem.activities.adminActivities.modules.viewStudentsActivity" />
         <activity android:name="com.synavos.AttendanceManagementSystem.activities.adminActivities.modules.addStudentActivity" />
