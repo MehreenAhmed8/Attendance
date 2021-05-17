@@ -1,5 +1,41 @@
 <resources>
     <string name="app_name">AttendaceMS</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="employee_name">EmployeeName</string>
+    <string name="default_password">Default Password</string>
+    <string name="employee_type">Employee Type</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="insert_sucessfull">Insert Successfully</string>
+    <string name="add_new_students">Add Students</string>
+    <string name="view_students">View Students</string>
+    <string name="add_faculty">Add Faculty</string>
+    <string name="view_faculty">View Faculty</string>
+    <string name="student">student</string>
+    <string name="Tag">tag</string>
+    <string name="attendance_management_system">Attendance Management System</string>
+    <string name="enter_id">Enter ID</string>
+    <string name="password">type password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="admin_faculty_student">admin_faculty_student</string>
+    <string name="wrong">Something went wrong</string>
+    <string name="faculty">faculty</string>
+    <string name="login_failed">Either Id or password or role is incoreect</string>
+    <string name="empty">Please fill the fields properly</string>
+    <string name="already">attendance already marked</string>
+    <string name="close">Close</string>
+    <string name="mark">\"Mark Attendance of \"</string>
+    <string name="marked">marked</string>
+    <string name="attendance_marked">attendance marked</string>
+    <string name="status">Present</string>
+    <string name="mark_attendance">Mark Attendance</string>
+    <string name="view_attendance">View Attendance</string>
+    <string name="view_student_attendance">View Student Attendance</string>
+    <string name="emp_mark_attendence">\"Mark Attendance of id : \"</string>
+    <string name="name">Name</string>
+    <string name="date">date</string>
+    <string name="degree">Degree</string>
+    <string name="add_student">ADD STUDENT</string>
+    <string name="enter">Enter your staff credentials to access the assigned events you can manage</string>
+    <string name="todo">TODO</string>
+    <string name="role">Role</string>
 </resources>
