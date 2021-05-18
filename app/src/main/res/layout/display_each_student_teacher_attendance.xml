@@ -10,22 +10,22 @@
         android:id="@+id/DateView"
         android:layout_width="155dp"
         android:layout_height="37dp"
-
-        android:text="date"
+        android:text="@string/date"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.429"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.153" />
+        app:layout_constraintVertical_bias="0.153"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/Absent_Present"
         android:layout_width="160dp"
         android:layout_height="52dp"
         android:layout_marginTop="36dp"
-        android:text="mark"
+        android:text="@string/markabsent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.948"
@@ -37,7 +37,7 @@
         android:id="@+id/Id"
         android:layout_width="135dp"
         android:layout_height="57dp"
-        android:text="TextView"
+        android:text="@string/id"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

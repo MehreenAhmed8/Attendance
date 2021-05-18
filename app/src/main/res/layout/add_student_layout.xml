@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.adminActivities.modules.addStudentActivity">
+    tools:context=".activities.admin_activities.modules.AddStudentActivity">
 
     <EditText
         android:id="@+id/student_name"
@@ -19,7 +19,8 @@
         app:layout_constraintHorizontal_bias="0.431"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.142" />
+        app:layout_constraintVertical_bias="0.142"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/student_password"
@@ -32,7 +33,10 @@
         app:layout_constraintHorizontal_bias="0.414"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/student_name"
-        app:layout_constraintVertical_bias="0.073" />
+        app:layout_constraintVertical_bias="0.073"
+        android:autofillHints=""
+        android:inputType="text"
+        tools:ignore="TextFields" />
 
     <TextView
         android:id="@+id/date_of_join"
@@ -59,7 +63,8 @@
         app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/date_of_join"
-        app:layout_constraintVertical_bias="0.102" />
+        app:layout_constraintVertical_bias="0.102"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/add_student"

@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.adminActivities.modules.addEmployeeActivity">
+    tools:context=".activities.admin_activities.modules.AddEmployeeActivity">
     <EditText
         android:id="@+id/employee_name"
         android:layout_width="265dp"

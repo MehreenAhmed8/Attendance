@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.synavos.AttendanceManagementSystem">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.synavos.ams">
 
     <application
         android:allowBackup="true"
@@ -8,16 +9,17 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AttendaceMS">
+        android:theme="@style/Theme.AttendanceMS"
+        tools:ignore="AllowBackup">
 
-        <activity android:name="com.synavos.AttendanceManagementSystem.activities.facultyActivities.FacultyPanel" />
-        <activity android:name="com.synavos.AttendanceManagementSystem.activities.adminActivities.modules.viewTeachersActivity" />
-        <activity android:name="com.synavos.AttendanceManagementSystem.activities.adminActivities.modules.addEmployeeActivity" />
-        <activity android:name="com.synavos.AttendanceManagementSystem.activities.studentActivities.studentPanelActivity" />
-        <activity android:name="com.synavos.AttendanceManagementSystem.activities.adminActivities.modules.viewStudentsActivity" />
-        <activity android:name="com.synavos.AttendanceManagementSystem.activities.adminActivities.modules.addStudentActivity" />
-        <activity android:name="com.synavos.AttendanceManagementSystem.activities.adminActivities.modules.adminPanelActivity" />
-        <activity android:name="com.synavos.AttendanceManagementSystem.activities.signInActivity.MainActivity">
+        <activity android:name="com.synavos.ams.activities.faculty_activities.FacultyPanelActivity" />
+        <activity android:name="com.synavos.ams.activities.admin_activities.modules.ViewTeachersActivity" />
+        <activity android:name="com.synavos.ams.activities.admin_activities.modules.AddEmployeeActivity" />
+        <activity android:name="com.synavos.ams.activities.studentActivities.StudentPanelActivity" />
+        <activity android:name="com.synavos.ams.activities.admin_activities.modules.ViewStudentsActivity" />
+        <activity android:name="com.synavos.ams.activities.admin_activities.modules.AddStudentActivity" />
+        <activity android:name="com.synavos.ams.activities.admin_activities.modules.AdminPanelActivity" />
+        <activity android:name="com.synavos.ams.activities.signInActivity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
