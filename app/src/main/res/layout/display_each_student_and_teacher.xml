@@ -13,8 +13,9 @@
         android:layout_height="29dp"
         android:layout_gravity="left"
         android:paddingLeft="16dp"
-        android:text="ID"
-        android:textStyle="bold" />
+        android:text="@string/id"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
 
     <TextView
         android:id="@+id/display_status"
@@ -22,7 +23,8 @@
         android:layout_height="37dp"
         android:layout_gravity="left"
         android:paddingLeft="16dp"
-        tools:text="degree" />
+        tools:text="degree"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
 
     <TextView
         android:id="@+id/display_name"
@@ -30,6 +32,7 @@
         android:layout_height="49dp"
         android:layout_gravity="left"
         android:paddingLeft="16dp"
-        tools:text="StudentName" />
+        tools:text="StudentName"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
 
 </LinearLayout>
